@@ -1,0 +1,19 @@
+{
+  "name": "task_4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "homepage": "https://tahaeddiani.github.io/alx-react/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
